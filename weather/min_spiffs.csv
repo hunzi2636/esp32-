@@ -1,0 +1,5 @@
+# Name,   Type, SubType, Offset,   Size
+nvs,      data, nvs,    0x9000,   0x6000      ; NVS数据区
+otadata,  data, ota,    0xf000,   0x2000      ; OTA数据区
+app,      app,  ota_0,  0x1000,   2M           ; 主程序区（2MB）
+spiffs,   data, spiffs, 0x200000, 1M           ; 文件系统（1MB）
